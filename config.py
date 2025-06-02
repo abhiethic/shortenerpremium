@@ -91,13 +91,13 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "ninjanomo")
-UPI_ID = os.environ.get("UPI_ID", "0")
+UPI_ID = os.environ.get("UPI_ID", "DM : @ninjanomo")
 QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/ninjanomo")
 #--------------------------------------------
 #Time and its price
-#7 Days
-PRICE1 = os.environ.get("PRICE1", "30 rs")
+#15 Days
+PRICE1 = os.environ.get("PRICE1", "70 rs")
 #1 Month
 PRICE2 = os.environ.get("PRICE2", "120 rs")
 #3 Month
