@@ -32,7 +32,7 @@ PORT = os.environ.get("PORT", "8001")
 DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
-FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
+FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CodeflixSupport")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
@@ -96,8 +96,8 @@ QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/ninjanomo")
 #--------------------------------------------
 #Time and its price
-#7 Days
-PRICE1 = os.environ.get("PRICE1", "0 rs")
+#15 Days
+PRICE1 = os.environ.get("PRICE1", "70 rs")
 #1 Month
 PRICE2 = os.environ.get("PRICE2", "120 rs")
 #3 Month
