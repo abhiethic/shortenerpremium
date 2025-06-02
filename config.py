@@ -96,8 +96,8 @@ QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/ninjanomo")
 #--------------------------------------------
 #Time and its price
-#15 Days
-PRICE1 = os.environ.get("PRICE1", "70 rs")
+#7 Days
+PRICE1 = os.environ.get("PRICE1", "0 rs")
 #1 Month
 PRICE2 = os.environ.get("PRICE2", "120 rs")
 #3 Month
@@ -106,8 +106,7 @@ PRICE3 = os.environ.get("PRICE3", "350 rs")
 PRICE4 = os.environ.get("PRICE4", "650 rs")
 #1 Year
 PRICE5 = os.environ.get("PRICE5", "999 rs")
-#2 Year
-PRICE5 = os.environ.get("PRICE5", "1500 rs")
+
 
 #===================(END)========================#
 
