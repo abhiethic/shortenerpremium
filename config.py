@@ -96,16 +96,14 @@ QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/marc_sp3ctor")
 #--------------------------------------------
 #Time and its price
-#15 Days
-PRICE1 = os.environ.get("PRICE1", "70 rs")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "120 rs")
+PRICE1 = os.environ.get("PRICE1", "199 rs")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "350 rs")
+PRICE2 = os.environ.get("PRICE2", "499 rs")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "650 rs")
+PRICE3 = os.environ.get("PRICE3", "799 rs")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "999 rs")
+PRICE4 = os.environ.get("PRICE4", "1299 rs")
 
 
 #===================(END)========================#
